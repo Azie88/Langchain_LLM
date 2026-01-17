@@ -31,6 +31,7 @@ Make sure you have Python installed on your computer. You can download it from [
 ### 3. Set Up the Project
 
 **Step 1: Open the Project Folder**
+
 You can use VS Code or your favorite IDE to open the project folder:
 
 - **VS Code (Recommended):**
