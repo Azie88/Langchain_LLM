@@ -30,18 +30,27 @@ Make sure you have Python installed on your computer. You can download it from [
 
 ### 3. Set Up the Project
 
-**Step 1: Clone the Repository**
+**Step 1: Open the Project Folder**
+You can use VS Code or your favorite IDE to open the project folder:
+
+- **VS Code (Recommended):**
+    1. Open the project folder.
+    2. Open `summarize_text.py`.
+    3. Select the kernel **Python (.venv)** in the top-right corner.
+    4. Run the script.
+
+**Step 2: Clone the Repository**
 ```bash
 git clone https://github.com/Azie88/Langchain_LLM.git
 cd Langchain_LLM
 ```
 
-**Step 2: Create a virtual environment**
+**Step 3: Create a virtual environment**
 ```bash
 python -m venv .venv
 ```
 
-**Step 3: Activate the virtual environment**
+**Step 4: Activate the virtual environment**
 
 On Windows (PowerShell):
 ```powershell
@@ -53,12 +62,12 @@ On Mac/Linux:
 source .venv/bin/activate
 ```
 
-**Step 4: Install required packages**
+**Step 5: Install required packages**
 ```bash
 pip install -r requirements.txt
 ```
 
-**Step 5: Create a `.env` file**
+**Step 6: Create a `.env` file**
 
 Create a file named `.env` in the same folder as your script and add your OpenAI API key:
 ```
@@ -67,7 +76,7 @@ OPENAI_API_KEY=your-api-key-here
 
 Replace `your-api-key-here` with the actual API key you got from OpenAI.
 
-**Step 6: Run the Script**
+**Step 7: Run the Script**
 ```bash
 python summarize_text.py
 ```
@@ -92,7 +101,7 @@ This script uses OpenAI's API which costs money. Each query costs a small amount
 ### Files You Should Have
 
 ```
-your-project-folder/
+Langchain_LLM/
 ├── summarize_text.py      # The main script
 ├── requirements.txt       # List of required packages
 ├── .env                   # Your API key (DON'T share this!)
